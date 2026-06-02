@@ -7,7 +7,7 @@ Qtractor, yabridge, yabridgectl installed.
 https://archive.org/download/roland-sound-canvas-va/Sound%20Canvas%20VA%20v1.1.6%20%2864-bit%29.7z
 Setup SOUND Canvas VA v1.1.6.exe via Proton (or Wine)
 
-• Option: modify yabridge using Proton instead of Wine
+• Option: modify yabridge to use Proton instead of Wine
 
 yabridge https://archlinux.org/packages/extra/x86_64/yabridge/ uses by default Wine (a dependency), to use Proton instead, modify the yabridge-*-x86_64.pkg.tar.zst package, run:
 ⃝
@@ -43,6 +43,15 @@ Track, Import Tracks, MIDI..., MIDI file(s), Play
 E.g.:
 
 EDuke32, OPTIONS, SOUND SETUP, DEVICE CONFIGURATION, MIDI DRIVER: ALSA MIDI, APPLY CHANGES.
+
+•• DOSBox
+
+https://www.dosbox.com/wiki/Configuration:MIDI
+⃝
+pmidi -l
+⏺
+I've 128:0 for Qtractor so:
+/home/username/.dosbox/dosbox-0.74-3.conf , midiconfig=128:0 .
 
 Duke Nukem 3D https://archive.org/download/DukeNukem3DKillATonCollectionUSA installed:
 DOSBox, cd KILLATON/ATOMIC, SETUP.EXE, Sound Setup, Choose Music Card, Sound Canvas, the default MIDI Port 0x330,
