@@ -1,0 +1,65 @@
+ssh alarm@10.15.19.82
+yes
+123456
+sudo -i
+123456
+nmtui
+iracundas7-revocatori-despondeo-graciose
+sed -i /Ca/cCacheDir=/tmp/0 /etc/pacman.conf
+mount -o remount,size=0 /tmp
+systemctl daemon-reload
+pacman -S arch-install-scripts
+rm -r /tmp/0
+{
+fdisk /dev/disk/by-id/mmc-A3A562_0x1dec37d0<<<'n
+
+34
+65569
+n
+
+65570
+157777886
+n
+
+157777887
+174555102
+n
+
+174555103
+241663966
+w'
+sleep 1
+mkfs.fat -F16 /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part1
+mkfs.f2fs -f /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part2
+mkswap /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part3
+mkfs.f2fs -f /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part4
+mount /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part2 /mnt
+chmod 777 /mnt
+mount --mkdir /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part1 /mnt/boot
+chmod 777 /mnt/boot
+pacstrap -icMK /mnt base device-pine64-pinephonepro dosfstools f2fs-tools man-db man-pages nano sudo buho calindori cups cups-filters danctnix-pm-ui-meta discover ghostscript glibc-locales gsfonts gst-plugins-bad gst-plugins-good kaccounts-providers kalk kweather mesa modemmanager networkmanager-openvpn noto-fonts noto-fonts-cjk noto-fonts-emoji packagekit-qt6 plasma plasma-mobile-autologin plasma-mobile-sounds plasma-phonebook plasma-settings xdg-desktop-portal-kde xdg-user-dirs danctnix-usb-tethering openssh<<<'
+
+2
+
+'
+rm -r /tmp/0
+arch-chroot /mnt bash -c "pacman -Qqd|pacman -Rsun --noconfirm -
+systemctl enable NetworkManager ModemManager plasmalogin usb-tethering sshd
+ln -s /usr/share/zoneinfo/UTC /etc/localtime
+hwclock -w
+echo -en /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part1 /boot auto'\'n/dev/disk/by-id/mmc-A3A562_0x1dec37d0-part3 none swap>/etc/fstab
+sed -i 15,17d /usr/lib/tmpfiles.d/var.conf
+rm /var/log/wtmp /var/log/btmp /var/log/lastlog
+useradd -m a
+sed -i '1s/x//
+\$s/x//' /etc/passwd
+sed -i '/t A/s/^/# /
+/L A/s/^..//' /etc/sudoers
+sed -i /Ca/cCacheDir=/tmp/0 /etc/pacman.conf
+echo -n unset HISTFILE>>/etc/bash.bashrc"
+umount /mnt/boot
+umount /mnt
+mount /dev/disk/by-id/mmc-A3A562_0x1dec37d0-part4 /mnt
+chmod 777 /mnt
+}|tee /tmp/.txt
+cp /tmp/.txt /mnt
