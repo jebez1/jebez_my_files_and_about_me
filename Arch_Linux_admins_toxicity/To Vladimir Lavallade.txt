@@ -1,0 +1,37 @@
+Maybe you have the official version, the unofficial version:
+
+I wanted to be registered to gitlab.archlinux.org but:
+Christian Heusel (@gromit) played the nightclub bouncer:
+Leading me to believe that I would be registered
+Make me wait for 1 week
+Ghosted me
+Finally in the topic https://bbs.archlinux.org/viewtopic.php?pid=2277712#p2277712 (in Topics Going Nowhere, so login needed) talked about 2FA (I haven't 2FA: I haven't password) ignoring me, what insolence...
+
+So I got angry with him (see the topic) then I was banned.
+
+The proof (emails):
+https://drive.google.com/file/d/1iT_IvAVMIH8qwjs7f3s5nrwMqM0ZBUls
+https://drive.google.com/file/d/1_FZ1UVk3D_M6xaSF9aKHb9DusmjThWaf .
+
+Too bad that this good OS that is Arch Linux is moderated by toxic persons, seems the good attracts the bad.
+The only 2 good regular helpers I saw is seth & V1del, contrary to Scimmia https://bbs.archlinux.org/viewtopic.php?pid=2221265#p2221265 , https://bbs.archlinux.org/viewtopic.php?pid=2278805#p2278805 .
+
+Seeing others banned:
+https://bbs.archlinux.org/viewtopic.php?id=164761 (in Dustbin, login needed)
+https://bbs.archlinux.org/viewtopic.php?id=162098
+https://bbs.archlinux.org/viewtopic.php?id=166178
+etc
+to wonder why...
+
+Googling "arch linux banned", there are some discontents.
+
+wiki.archlinux.org is distinct from bbs.archlinux.org , I use also other forums, so be a moderator of these then ban me also?
+What cowardice, behind your screen, annoying people, unlike you I just want to be useful with my wiki pages.
+
+Maybe better https://www.reddit.com/r/archlinux/ , I'm still not banned of reddit (so be a reddit moderator then ban me).
+
+So Long, and Thanks for All the Fish.
+
+PS
+Googling "Install Arch Linux by a script" needs the 2 double quotes to work, without: nothing (arch wiki ostree, yes...), wonder if the lambda dude writes the 2 double quotes...
+Also googling "install arch linux by script", with or without the 2 double quotes: nothing, as I said.
